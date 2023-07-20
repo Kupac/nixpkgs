@@ -39,7 +39,7 @@
 
 let
   pname = "RStudio";
-  version = "2023.06.1+524";
+  version = "2023.06.1%2B524";
   RSTUDIO_VERSION_MAJOR  = "2023";
   RSTUDIO_VERSION_MINOR  = "06";
   RSTUDIO_VERSION_PATCH  = "1";
@@ -61,7 +61,7 @@ let
     owner = "rstudio";
     repo = "rsconnect";
     rev = "1dc159ae02792dcc63c00a4b2669d2e156020bbc";
-    sha256 = "";
+    sha256 = "sha256-Hiqs7MA2n8W1IppBbGfBqLKHL/47bKk/cFgZ8WO8BdM=";
   };
 
   panmirrorModules = mkYarnModules {
