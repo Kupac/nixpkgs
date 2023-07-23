@@ -3,6 +3,7 @@
 , mkDerivation
 , fetchurl
 , fetchpatch
+, fetchgit
 , fetchFromGitHub
 , makeDesktopItem
 , copyDesktopItems
