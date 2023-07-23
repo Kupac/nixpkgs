@@ -70,7 +70,7 @@ let
     url = "https://github.com/quarto-dev/quarto/";
     branchName = "release/rstudio-cherry-blossom";
     rev = "aea3027882718af657d60221818c3ff35f413219";
-    sha256 = "";
+    sha256 = "sha256-GZLRfoKZ+TK1l2ng5HQjVhMS+PxR9CB6vsWcMoWddW8=";
   };
 
   panmirrorModules = mkYarnModules {
