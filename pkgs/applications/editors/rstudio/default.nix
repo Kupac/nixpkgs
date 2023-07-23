@@ -186,8 +186,9 @@ in
       ( cd dependencies && ${R}/bin/R CMD build -d --no-build-vignettes rsconnect )
 
       mkdir -p /build/source/src/gwt/lib/quarto
+      mkdir -p /build/source/src/gwt/lib/quarto/apss/panmirror/
       cp -r ${panmirrorSrc} /build/source/src/gwt/lib/quarto/
-      #cp -r "${panmirrorModules}" src/gwt/lib/quarto/apps/panmirror/node_modules
+      cp -r "${panmirrorModules}" /build/source/src/gwt/lib/quarto/apps/panmirror/node_modules
     '';
 
     postInstall = ''
