@@ -66,7 +66,7 @@ let
 
 
   panmirrorSrc = fetchgit {
-    url = "https://github.com/quarto-dev/";
+    url = "https://github.com/quarto-dev/quarto/";
     branchName = "release/rstudio-cherry-blossom";
     rev = "aea3027882718af657d60221818c3ff35f413219";
     sha256 = "";
