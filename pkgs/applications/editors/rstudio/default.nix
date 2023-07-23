@@ -60,8 +60,8 @@ let
   rsconnectSrc = fetchFromGitHub {
     owner = "rstudio";
     repo = "rsconnect";
-    rev = "1dc159ae02792dcc63c00a4b2669d2e156020bbc";
-    sha256 = "sha256-Hiqs7MA2n8W1IppBbGfBqLKHL/47bKk/cFgZ8WO8BdM=";
+    rev = "e287b586e7da03105de3faa8774c63f08984eb3c";
+    sha256 = "sha256-ULyWdSgGPSAwMt0t4QPuzeUE6Bo6IJh+5BMgW1bFN+Y=";
   };
 
   panmirrorModules = mkYarnModules {
@@ -176,7 +176,8 @@ in
       cp -r ${rsconnectSrc} dependencies/rsconnect
       ( cd dependencies && ${R}/bin/R CMD build -d --no-build-vignettes rsconnect )
 
-      cp -r "${panmirrorModules}" src/gwt/panmirror/src/editor/node_modules
+      mkdir -p src/gwt/lib/quarto/apps/panmirror
+      cp -r "${panmirrorModules}" src/gwt/lib/quarto/apps/panmirror/node_modules
     '';
 
     postInstall = ''
