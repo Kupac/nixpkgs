@@ -64,14 +64,6 @@ let
     sha256 = "sha256-ULyWdSgGPSAwMt0t4QPuzeUE6Bo6IJh+5BMgW1bFN+Y=";
   };
 
-
-  panmirrorSrc = fetchFromGitHub {
-    owner = "quarto-dev";
-    repo = "release/rstudio-cherry-blossom";
-    rev = "aea3027882718af657d60221818c3ff35f413219";
-    sha256 = "";
-  };
-
   panmirrorModules = mkYarnModules {
     inherit pname version;
     packageJSON = ./package.json;
@@ -184,8 +176,7 @@ in
       cp -r ${rsconnectSrc} dependencies/rsconnect
       ( cd dependencies && ${R}/bin/R CMD build -d --no-build-vignettes rsconnect )
 
-      mkdir -p src/gwt/lib/quarto
-      cp -r ${panmirrorSrc} src/gwt/lib/quarto/
+      mkdir -p src/gwt/lib/quarto/apps/panmirror
       cp -r "${panmirrorModules}" src/gwt/lib/quarto/apps/panmirror/node_modules
     '';
 
