@@ -65,9 +65,9 @@ let
   };
 
 
-  panmirrorSrc = fetchgit {
-    url = "https://github.com/quarto-dev/";
-    branchName = "release/rstudio-cherry-blossom";
+  panmirrorSrc = fetchFromGitHub {
+    owner = "quarto-dev";
+    repo = "release/rstudio-cherry-blossom";
     rev = "aea3027882718af657d60221818c3ff35f413219";
     sha256 = "";
   };
