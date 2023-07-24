@@ -187,7 +187,7 @@ in
 
       mkdir -p src/gwt/lib/quarto
       cp -r ${panmirrorSrc} src/gwt/lib/quarto/
-      #cp -r "${panmirrorModules}" src/gwt/lib/quarto/apps/panmirror/node_modules
+      cp -r "${panmirrorModules}" src/gwt/lib/quarto/apps/panmirror/node_modules
     '';
 
     postInstall = ''
