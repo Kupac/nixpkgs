@@ -68,7 +68,7 @@ let
     inherit pname version;
     packageJSON = ./package.json;
     yarnLock = ./yarn.lock;
-    #yarnNix = ./yarndeps.nix;
+    yarnNix = ./yarndeps.nix;
   };
 
   description = "Set of integrated tools for the R language";
