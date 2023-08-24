@@ -2,6 +2,7 @@
 , runCommand
 , R
 , rstudio
+, quarto
 , makeWrapper
 , wrapQtAppsHook
 , recommendedPackages
