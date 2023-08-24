@@ -66,12 +66,12 @@ let
     sha256 = "sha256-Lv3WBTb0oP0ibP3AB0v3+E+i2DJoADMZ6Ysfxnk3ZvE=";
   };
 
-  #quartoSrc = fetchFromGitHub {
-  #  owner = "quarto-dev";
-  #  repo = "quarto";
-  #  rev = "a92906bbd004e3d8abc39b5f59346ca2a091d1e8";
-  #  sha256 = "sha256-ZpqOxwpqrFqwaR+SkEki9aZhTzsRLh9Rd1tYCC9uukk=";
-  #};
+  quartoSrc = fetchFromGitHub {
+    owner = "quarto-dev";
+    repo = "quarto";
+    rev = "a92906bbd004e3d8abc39b5f59346ca2a091d1e8";
+    sha256 = "sha256-ZpqOxwpqrFqwaR+SkEki9aZhTzsRLh9Rd1tYCC9uukk=";
+  };
 
   panmirrorModules = mkYarnModules {
     inherit pname version;
@@ -156,7 +156,7 @@ in
 
       substituteInPlace src/gwt/build.xml \
         --replace '@node@' ${nodejs} \
-        --replace './lib/quarto' '@quarto@'
+        --replace './lib/quarto' ${quartoSrc}
 
       substituteInPlace src/cpp/core/libclang/LibClang.cpp \
         --replace '@libclang@' ${llvmPackages.libclang.lib} \
