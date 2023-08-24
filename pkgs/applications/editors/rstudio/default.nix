@@ -41,11 +41,15 @@
 
 let
   pname = "RStudio";
-  version = "2023.06.1+524";
+  version =
+          RSTUDIO_VERSION_MAJOR +
+    "." + RSTUDIO_VERSION_MINOR +
+    "." + RSTUDIO_VERSION_PATCH +
+    "+" + RSTUDIO_VERSION_SUFFIX;
   RSTUDIO_VERSION_MAJOR  = "2023";
   RSTUDIO_VERSION_MINOR  = "06";
   RSTUDIO_VERSION_PATCH  = "1";
-  RSTUDIO_VERSION_SUFFIX = "+524";
+  RSTUDIO_VERSION_SUFFIX = "524";
 
   src = fetchFromGitHub {
     owner = "rstudio";
@@ -259,3 +263,4 @@ in
       })
     ];
   })
+
