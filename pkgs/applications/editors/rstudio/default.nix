@@ -156,7 +156,7 @@ in
 
       substituteInPlace src/gwt/build.xml \
         --replace '@node@' ${nodejs} \
-        --replace './lib/quarto' ${quartoSrc}
+        --replace './lib/quarto' '@quarto@'
 
       substituteInPlace src/cpp/core/libclang/LibClang.cpp \
         --replace '@libclang@' ${llvmPackages.libclang.lib} \
