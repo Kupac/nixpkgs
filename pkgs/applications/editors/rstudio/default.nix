@@ -43,15 +43,15 @@ let
   version =
   "${RSTUDIO_VERSION_MAJOR}.${RSTUDIO_VERSION_MINOR}.${RSTUDIO_VERSION_PATCH}${RSTUDIO_VERSION_SUFFIX}";
   RSTUDIO_VERSION_MAJOR  = "2023";
-  RSTUDIO_VERSION_MINOR  = "06";
-  RSTUDIO_VERSION_PATCH  = "2";
-  RSTUDIO_VERSION_SUFFIX = "+561";
+  RSTUDIO_VERSION_MINOR  = "09";
+  RSTUDIO_VERSION_PATCH  = "0";
+  RSTUDIO_VERSION_SUFFIX = "+463";
 
   src = fetchFromGitHub {
     owner = "rstudio";
     repo = "rstudio";
     rev = "v${version}";
-    hash = "sha256-ehLfQ59wzu0uiKVjfTkcuTnxTMcj23cs6mDo8pz780c=";
+    hash = "sha256-FwNuU2rbE3GEhuwphvZISUMhvSZJ6FjjaZ1oQ9F8NWc=";
   };
 
   mathJaxSrc = fetchurl {
@@ -62,17 +62,17 @@ let
   rsconnectSrc = fetchFromGitHub {
     owner = "rstudio";
     repo = "rsconnect";
-    rev = "db2bcba0d82698aca6bc6aff4f639cc531060b4b";
-    hash = "sha256-Lv3WBTb0oP0ibP3AB0v3+E+i2DJoADMZ6Ysfxnk3ZvE=";
+    rev = "5175a927a41acfd9a21d9fdecb705ea3292109f2";
+    hash = "sha256-c1fFcN6KAfxXv8bv4WnIqQKg1wcNP2AywhEmIbyzaBA=";
   };
 
-  # rev should be something close to the rstudio release date
-  # try `git log --grep="update" on the quarto repo
+  # Ideally, rev should match the rstudio release name.
+  # e.g. release/rstudio-mountain-hydrangea
   quartoSrc = fetchFromGitHub {
     owner = "quarto-dev";
     repo = "quarto";
-    rev = "8e75fbde14e2254f4693860825ea82fb1cae894e";
-    hash = "sha256-nuZxxdBQPGsXl5irzM0DRw24ZbO4PvxzsXFvFhQ3fqg=";
+    rev = "bb264a572c6331d46abcf087748c021d815c55d7";
+    hash = "sha256-lZnZvioztbBWWa6H177X6rRrrgACx2gMjVFDgNup93g=";
   };
 
   description = "Set of integrated tools for the R language";

@@ -1,6 +1,6 @@
 --- a/src/cpp/session/include/session/SessionConstants.hpp
 +++ b/src/cpp/session/include/session/SessionConstants.hpp
-@@ -142,12 +142,12 @@
+@@ -142,13 +142,13 @@
  #define kSessionTmpDir             "rstudio-rsession"
  
  #ifdef QUARTO_ENABLED
@@ -10,6 +10,7 @@
  # define kDefaultPandocPath        "bin/pandoc"
  #endif
  
+ #define kDefaultNodePath           "bin/node"
 -#define kDefaultQuartoPath         "bin/quarto"
 +#define kDefaultQuartoPath         "@quarto@"
  #define kDefaultRsclangPath        "bin/rsclang"
