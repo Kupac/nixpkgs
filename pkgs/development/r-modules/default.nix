@@ -309,7 +309,6 @@ let
   };
 
   packagesWithNativeBuildInputs = {
-    arrow = [ pkgs.pkg-config pkgs.arrow-cpp ];
     adimpro = [ pkgs.imagemagick ];
     animation = [ pkgs.which ];
     audio = [ pkgs.portaudio ];
@@ -939,6 +938,27 @@ let
   ];
 
   otherOverrides = old: new: {
+    # arrow 14.0.0.2 on CRAN is lagging behind current libarrow release number
+    # https://github.com/apache/arrow/issues/39698
+    arrow = let
+      arrow-cpp = pkgs.arrow-cpp.overrideAttrs (finalAttrs: previousAttrs: {
+        version = "14.0.0";
+        src = fetchurl {
+          url = "mirror://apache/arrow/arrow-${finalAttrs.version}/apache-arrow-${finalAttrs.version}.tar.gz";
+          hash = "sha256-TrDaUOwHG68V/BY8tIBYkx4AbxyGLI3vDhgP0H1TECE=";
+        };
+    });
+    in old.arrow.overrideAttrs (attrs: {
+      postPatch = ''
+        patchShebangs configure
+      '';
+      nativeBuildInputs = [
+        pkgs.pkg-config
+        pkgs.cmake
+        arrow-cpp
+      ] ++ lib.optionals stdenv.isDarwin [ pkgs.intltool ];
+    });
+
     gifski = old.gifski.overrideAttrs (attrs: {
       cargoDeps = pkgs.rustPlatform.fetchCargoTarball {
         src = attrs.src;
@@ -1301,12 +1321,6 @@ let
     SICtools = old.SICtools.overrideAttrs (attrs: {
       preConfigure = ''
         substituteInPlace src/Makefile --replace "-lcurses" "-lncurses"
-      '';
-    });
-
-    arrow = old.arrow.overrideAttrs (attrs: {
-      preConfigure = ''
-        patchShebangs configure
       '';
     });
 
