@@ -945,8 +945,9 @@ let
     # arrow 14.0.0.2 on CRAN is lagging behind current libarrow release number
     # https://github.com/apache/arrow/issues/39698
     arrow = let
+      rarrow-version = lib.versions.pad 3 (lib.strings.getVersion pkgs.rPackages.arrow);
       arrow-cpp = pkgs.arrow-cpp.overrideAttrs (finalAttrs: previousAttrs: {
-        version = "14.0.0";
+        version = rarrow-version;
         src = fetchurl {
           url = "mirror://apache/arrow/arrow-${finalAttrs.version}/apache-arrow-${finalAttrs.version}.tar.gz";
           hash = "sha256-TrDaUOwHG68V/BY8tIBYkx4AbxyGLI3vDhgP0H1TECE=";
