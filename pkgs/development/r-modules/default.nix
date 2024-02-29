@@ -311,6 +311,10 @@ let
   packagesWithNativeBuildInputs = {
     adimpro = [ pkgs.imagemagick ];
     animation = [ pkgs.which ];
+    arrow = with pkgs; [
+      pkg-config
+      cmake
+    ] ++ lib.optionals stdenv.isDarwin [ intltool ];
     audio = [ pkgs.portaudio ];
     BayesSAE = [ pkgs.gsl ];
     BayesVarSel = [ pkgs.gsl ];
@@ -952,11 +956,9 @@ let
       postPatch = ''
         patchShebangs configure
       '';
-      nativeBuildInputs = [
-        pkgs.pkg-config
-        pkgs.cmake
+      nativeBuildInputs = attrs.nativeBuildInputs ++ [
         arrow-cpp
-      ] ++ lib.optionals stdenv.isDarwin [ pkgs.intltool ];
+      ];
     });
 
     gifski = old.gifski.overrideAttrs (attrs: {
