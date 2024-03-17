@@ -1,0 +1,1130 @@
+Package,SystemDependencies_auto,SystemDependencies_curr
+ABC.RAP,gnumake,
+acro,python,
+adbcsqlite,sqlite3,
+adimpro,dcraw imagemagick,imagemagick which xorg.xdpyinfo
+ADMMsigma,gnumake,
+altair,python,
+altmeta,jags,
+animation,imagemagick latex swftools,which
+anticlust,coinor-symphony glpk pandoc,
+AovBay,gnumake,
+apcf,geos,geos
+aphid,gnumake,
+Apollonius,gmp mpfr,
+archive,libarchive,libarchive
+arcpbf,rust,
+argparse,python,
+arrangements,gmp,gmp
+arrow,cmake libcurl openssl,arrow-cpp pkg-config
+arulesCBA,java,
+arulesNBMiner,java,
+asbio,bwidget,
+asteRisk,gnumake,
+audio,,portaudio
+autocart,gnumake,
+autoharp,pandoc,
+av,libavfilter,
+AWR,java,
+b64,rust,
+bacistool,jags,
+baggr,gnumake,
+baker,jags,
+bakR,gnumake,
+baldur,gnumake,
+bamdit,jags,
+bamm,gdal geos imagemagick latex libmagic proj sqlite3 swftools,
+BANOVA,jags,
+bartMachine,java,
+bartMachineJARs,java,
+batchmix,gnumake,
+bayes4psy,gnumake,
+bayesbr,gnumake,
+BayesCACE,jags,
+bayescount,jags,
+bayesdfa,gnumake,
+bayesforecast,gnumake,
+bayesGAM,gnumake,
+BayesGmed,gnumake,
+BayesGrowth,gnumake,
+BayesGWQS,jags,
+BayesianPlatformDesignTimeTrend,gnumake,
+bayeslm,gnumake,
+bayesplot,pandoc pandoc-citeproc,
+BayesPostEst,jags,
+BayesSenMC,gnumake,
+BayesTools,jags,
+BayesVarSel,gsl,gsl
+BayesXsrc,gnumake,gsl ncurses readline
+bayesZIB,gnumake,
+BayLum,jags,
+bbl,,gsl
+bbmix,gnumake,
+bcf,gnumake,
+BCHM,jags,
+bdpar,python,
+beanz,gnumake,
+BeastJar,java,
+BeeGUTS,gnumake,
+bellreg,gnumake,
+bennu,gnumake,
+BeQut,jags,
+Bernadette,gnumake,
+bfp,gnumake,
+bfw,jags java,
+BGVAR,gnumake,
+bhmbasket,jags,
+BiBitR,java,
+biblio,pandoc,
+bigGP,openmpi,mpi
+bigMap,gnumake,
+bigmemory,,libuuid
+bigrquerystorage,libprotobuf protobuf-compiler,
+bigsnpr,,zlib
+BINtools,gnumake,
+bio3d,,zlib
+bioacoustics,fftw3 gnumake,
+bioimagetools,fftw3 libcurl libtiff openssl,
+biplotbootGUI,bwidget tcltk tk,
+bistablehistory,gnumake,
+BivRec,gnumake,
+blandr,pandoc,
+blastula,pandoc,
+blavaan,gnumake,
+blindreview,gmp,
+blockcluster,gnumake,
+blogdown,pandoc,
+bmgarch,gnumake,
+bmggum,gnumake,
+bmlm,gnumake,
+bmstdr,gnumake,
+BNSP,,gsl
+bookdown,pandoc,
+Boom,gnumake,
+bootUR,gnumake,
+botor,python,
+BPrinStratTTE,gnumake,
+BrailleR,python,
+breathtestcore,pandoc,
+breathteststan,gnumake,
+bridger,latex,
+brinton,pandoc,
+bsam,jags,
+BSPBSS,gnumake,
+bspm,python,
+bssm,pandoc,
+BTSPAS,jags,
+bws,gnumake,
+Cairo,cairo,cairo fontconfig.lib libjpeg libtiff pkg-config xorg.libXt
+camtrapR,exiftool,
+caracas,python,
+CARME,gnumake,
+cartogramR,fftw3,
+CaseBasedReasoning,gnumake,
+catSurv,gnumake,gsl
+causact,python,
+CausalQueries,gnumake,
+caviarpd,rust,
+cbq,gnumake,
+CBSr,java,
+ChoR,java,
+chromote,chrome,
+cit,gsl,gsl
+clarabel,gnumake rust,
+cld3,libprotobuf protobuf-compiler,
+cleanNLP,python,
+clinDataReview,pandoc,
+clinUtils,pandoc,
+cloneRate,gnumake,
+cloudml,python,
+clustermq,zeromq,pkg-config zeromq
+ClusterR,fftw3,
+CLVTools,,gsl
+cncaGUI,bwidget tcltk tk,
+CNVRG,gnumake,
+coga,gsl,
+cogmapr,libcurl openssl,
+collUtils,java,
+colorizer,imagemagick,
+CommonJavaJars,java,
+concatipede,gnumake,
+concaveman,gdal geos proj,
+conflr,pandoc,
+CoNI,python3,
+conleyreg,gnumake,
+conStruct,gnumake,
+CoordinateCleaner,gdal,
+corehunter,java,
+coreNLP,java,
+coveffectsplot,pandoc,
+CPAT,gnumake,
+cppRouting,gnumake,
+crandep,pandoc,gsl
+crc32c,cmake,
+credentials,git,
+Crossover,java,
+ctsem,gnumake,
+cubature,gnumake,
+curl,libcurl openssl,curl
+cycleRtools,java,
+CytOpT,python,
+DA,gnumake,
+DALY,tcltk tk tktable,
+DatabaseConnector,java,
+DatabionicSwarm,gnumake pandoc,
+DataExplorer,pandoc,
+dataMaid,git pandoc,
+dataReporter,git pandoc,
+datasailr,gnumake,
+dbmss,gnumake pandoc,
+dclone,jags,
+dcmle,jags,
+DCPO,gnumake,
+Deducer,java,
+deforestable,gdal geos proj sqlite3,
+densEstBayes,gnumake,
+DesignCTPB,cuda openssl,
+detrendr,gnumake,
+devEMF,fontconfig zlib,xorg.libXft
+dialr,java,
+dialrjars,java,
+digitalDLSorteR,python,
+DiNAMIC.Duo,python,
+disaggregation,gnumake,
+disbayes,gnumake,
+dismo,java,
+distops,gnumake,
+diversitree,fftw3 gsl,fftw gsl
+divest,,zlib
+DIZutils,postgresql,
+DNAtools,gnumake,
+dodgr,gnumake,
+drf,gnumake,
+dti,gsl,
+dtwclust,gnumake,
+dynBiplotGUI,gnumake,
+dynr,gnumake,gsl
+eaf,gnumake gsl,gsl
+easyNCDF,netcdf4,
+EBASE,jags,
+ebvcube,gdal,
+ech,gdal geos proj,
+EcoDiet,jags,
+EcoEnsemble,gnumake,
+econetwork,gsl,gsl
+ECOSolveR,gnumake,
+eggCounts,gnumake,
+elexr,python,
+elliptic,pari-gp,
+EloSteepness,gnumake,
+emayili,pandoc,
+EMCluster,,lapack
+entropart,pandoc,
+EpiNow2,gnumake,
+EpiSignalDetection,pandoc,
+ergm,openmpi,
+evapoRe,gdal netcdf4 proj,
+EvidenceSynthesis,java,
+exactextractr,geos,geos
+exams,pandoc,
+excursions,gsl,gsl
+exifr,perl,
+exiftoolr,perl,
+expertsurv,gnumake,
+extRatum,gdal geos proj,
+eyelinkReader,gnumake,
+ezknitr,pandoc,
+factset.protobuf.stach.v2,libprotobuf protobuf-compiler,
+factset.protobuf.stachextensions,libprotobuf protobuf-compiler,
+fangs,rust,
+fasano.franceschini.test,gnumake,
+fastGLCM,opencv python python3,
+fastglmpca,gnumake,
+fastTopics,gnumake,
+fcirt,gnumake,
+fcl,rust,
+FCPS,pandoc,
+fdaPDE,gnumake,
+FedData,gdal,
+FFD,bwidget,
+fftw,fftw3,fftw pkg-config
+fftwtools,fftw3,fftw pkg-config
+fgitR,git,
+findInGit,git,
+flan,gsl,gsl
+FlexReg,gnumake,
+flexsiteboard,pandoc,
+FLSSS,gnumake,
+Fluidigm,perl,
+fluidsynth,fluidsynth,
+FMAT,python,
+footBayes,pandoc pandoc-citeproc,
+forImage,opencv python,
+Formula,,gmp
+forsearch,gmp,
+frequency,pandoc,
+fRLR,gsl,gsl
+fs,gnumake,
+fsdaR,java,
+ftExtra,pandoc,
+fuzzywuzzyR,python,
+gastempt,gnumake,
+gaston,,zlib
+gbp,gnumake,
+gcbd,cuda,
+gdalBindings,gdal,
+gdalcubes,gdal netcdf4 proj sqlite3,
+gdalraster,gdal libxml2 proj,
+gdtools,cairo fontconfig freetype,cairo fontconfig.lib freetype pkg-config
+GeneralizedUmatrix,gnumake pandoc,
+GeneralizedWendland,gsl,
+geno2proteo,perl,
+GeoMongo,mongodb python,
+geostan,gnumake,
+geouy,gdal geos proj,
+gert,libgit2,libgit2
+GetoptLong,perl,
+gfilogisreg,gmp,
+GGally,openssl,
+ggdemetra,java,
+ggExtra,pandoc,
+ggiraph,libpng,libpng
+ggquickeda,pandoc,
+ggseg,gdal geos proj,
+ggtrace,pandoc,
+giacR,chrome,
+gibasa,gnumake,
+gifski,rust,
+git2r,libgit2 libssh2 openssl zlib,libgit2 libssh2 openssl pkg-config zlib
+gitcreds,git,
+gittargets,git,
+gKRLS,gnumake,
+glmmfields,gnumake,
+glmmPen,gnumake,
+glmmrBase,gnumake,
+glmmrOptim,gnumake,
+glmmTMB,gnumake,
+glmulti,java,
+glpkAPI,glpk,glpk gmp
+gMCP,java,
+GMKMcharlie,gnumake,
+GMMAT,,bzip2 zlib
+gmp,gmp,gmp
+govdown,pandoc,
+GPBayes,gsl,gsl
+gpg,gpgme haveged,
+gravmagsubs,gnumake,
+GreedyExperimentalDesign,java,
+GreedyExperimentalDesignJARs,java,
+greencrab.toolkit,gnumake,
+greta,python,
+greta.dynamics,python,
+greta.gp,python,
+grf,gnumake,
+gridGraphics,,which
+grwat,pandoc,
+gsl,gsl,gsl
+gslnls,gsl,
+guildai,python,
+GWmodel,gnumake,
+GWnnegPCA,gdal geos proj,
+GWpcor,gdal geos proj,
+h2o,java,
+h2o4gpu,python,
+h3jsr,v8,
+happign,gdal geos proj sqlite3,
+haven,gnumake zlib,zlib
+hbamr,gnumake,
+hBayesDM,gnumake,
+hdf5r,hdf5,hdf5
+helloJavaWorld,java,
+hellorust,rust,
+hermiter,gnumake,
+hgwrr,gnumake,
+HiClimR,netcdf4,
+HiCseg,,gsl
+highs,cmake pkg-config,
+hipread,,zlib
+historicalborrowlong,gnumake,
+hoopR,pandoc pandoc-citeproc,
+hpa,gnumake,
+hSDM,gsl,gsl
+hsstan,gnumake,
+httpgd,,cairo
+httpuv,gnumake zlib,zlib
+huxtable,latex,
+hwep,gnumake,
+iBART,java,
+IBRtools,gnumake,
+IceSat2R,gdal,
+idem,gnumake,
+idiogramFISH,pandoc,
+idm,imagemagick,
+igate,pandoc,
+igraph,glpk libxml2,gmp libxml2
+ijtiff,libjpeg libtiff libwebp zlib,libtiff
+image.CannyEdges,fftw3 libpng,
+image.textlinedetector,opencv,
+imager,fftw3 libtiff,xorg.libX11
+iMRMC,java,
+IncDTW,gnumake,
+InSilicoVA,java,
+interpolation,gmp,
+inTextSummaryTable,pandoc,
+IOHexperimenter,gnumake,
+ip2location,python,
+ip2proxy,python,
+irace,gnumake,
+IRkernel,python,
+ISEtools,jags,
+isotracer,gnumake,
+jack,gmp,
+jackalope,gnumake,xz zlib
+jagstargets,jags,
+jagsUI,jags,
+jarbes,jags,
+JavaGD,gnumake java,jdk
+jfa,gnumake,
+JGR,java,
+JMbayes,jags,
+JointAI,jags,
+jpeg,libjpeg,libjpeg
+jqr,libjq,jq jq.lib
+jSDM,gsl,gsl
+juicr,tcltk tk,
+kantorovich,gmp,
+keyring,libsecret,
+knitr,pandoc,
+KSgeneral,fftw3,
+kza,fftw3,fftw pkg-config
+lamW,gnumake,
+landsepi,gsl,gsl
+latentnet,gnumake,
+LCMCR,gsl,gsl
+lcra,jags,
+LDATS,gsl,
+LeafArea,imagej java,
+learnr,pandoc,
+leidenAlg,glpk gnumake libxml2,
+lessSEM,gnumake,
+lgpr,gnumake,
+Libra,gsl,
+libstable4u,gsl,
+lightsout,pandoc,
+link2GI,gnumake,
+lira,jags,
+LMMELSM,gnumake,
+LOMAR,fftw3 gmp,gmp
+loo,pandoc pandoc-citeproc,
+lpcde,gnumake,
+luajr,gnumake,
+lwgeom,geos proj sqlite3,gdal geos pkg-config proj sqlite
+MADPop,gnumake,
+magick,imagemagick,imagemagick pkg-config
+magickGUI,imagemagick,
+maGUI,tktable,
+mailR,java,
+mallet,java,
+MaOEA,python,
+mapme.biodiversity,gdal proj,
+mappoly,gnumake,zlib
+mapview,gnumake,
+maq,gnumake,
+markovchain,gnumake,
+mashr,,gsl
+matchingMarkets,java,zlib
+matrixprofiler,gnumake,
+mbbefd,gnumake,
+MBNMAdose,jags,
+MBNMAtime,jags,
+MDSGUI,bwidget tktable,
+measr,gnumake,
+meltt,python,
+memoiR,pandoc,
+metaBMA,gnumake,
+metagear,tcltk tk,
+MetaStan,gnumake,
+MethComp,jags,
+MFPCA,fftw3,
+MFSIS,python,
+mHMMbayes,gnumake,
+microclass,gnumake,
+MigConnectivity,jags,
+milr,gnumake,
+MIMSunit,libxml2 openssl,
+minidown,pandoc,
+minqa,gnumake,
+MIRES,gnumake,
+mixcat,,gsl
+MixSIAR,jags,
+mixture,gsl,gsl
+mlr,gdal geos glu gmp gsl jags mpfr openmpi proj,
+mmpca,,gsl
+modeLLtest,gnumake,
+mongolite,openssl sasl,
+monoreg,gsl,gsl
+morse,jags,
+motifr,python,
+mrbayes,gnumake,
+mRpostman,libcurl openssl,
+MUACz,gnumake,
+Multiaovbay,gnumake,
+multibiplotGUI,bwidget tcltk tk,
+multibridge,gmp gnumake mpfr,mpfr pkg-config
+multinma,gnumake,
+multipleDL,gnumake,
+mutossGUI,java,
+mvabund,,gsl
+mvst,gsl,gsl
+mwa,java,
+mwcsr,java,
+n1qn1,,gfortran
+NACHO,pandoc pandoc-citeproc,
+nanonext,cmake,mbedtls nng
+nat,,which
+navigation,gnumake,
+nbconvertR,pandoc python,
+ncdf4,netcdf4,netcdf
+ndjson,zlib,zlib
+neojags,jags,
+neptune,python,
+NestedCategBayesImpute,gnumake,
+networkscaleup,gnumake,
+neuralGAM,python,
+neuronorm,cmake,
+ngboostForecast,python,
+NGCHM,git java,
+nimble,gnumake,
+nloptr,cmake nlopt,nlopt pkg-config
+nlrx,gdal geos java libxml2 openssl pandoc proj udunits2,
+nmslibR,python3,
+NNS,gnumake,
+NobBS,jags,
+nucim,fftw3 libcurl libtiff openssl,
+numbat,gnumake,
+occumb,jags,
+oceanmap,imagemagick,
+odbc,gnumake odbc,pkg-config unixODBC
+oddsapiR,pandoc pandoc-citeproc,
+officedown,pandoc,
+OncoBayes2,gnumake pandoc pandoc-citeproc,
+oncomsm,gnumake,
+ondisc,gnumake,
+OpenCL,gnumake opencl,
+opencpu,apparmor pandoc,
+openCR,gnumake,
+opencv,opencv,
+OpenImageR,fftw3 libjpeg libpng,
+OpenMx,gnumake,
+openNLP,java,
+openNLPdata,java,
+openssl,openssl,pkg-config
+OpenStreetMap,java,
+optimalThreshold,jags,
+orbweaver,rust,
+Orcs,gnumake,
+orderly,git,
+ordinalbayes,jags,
+otsad,python python3,
+outerbase,gnumake,
+pagedown,pandoc,
+pak,,curl
+pander,pandoc,pandoc which
+pandocfilters,pandoc,
+papaja,pandoc,
+pathfindR,java,
+patientProfilesVis,cairo latex,
+patternplot,gnumake,
+paws.common,pandoc,
+pbdMPI,openmpi,mpi
+pbdSLAP,openmpi,
+pbdZMQ,zeromq,pkg-config zeromq
+PBSmodelling,bwidget,
+pcaL1,coin-or-clp,
+pcFactorStan,gnumake,
+pcnetmeta,jags,
+pdfminer,python,
+pdftools,poppler,pkg-config poppler
+pdSpecEst,gnumake,
+pedometrics,pandoc,
+pema,gnumake,
+PEPBVS,gsl,
+phacking,gnumake,
+pharmr,python,
+phase1PRMD,jags,
+PhViD,tcltk tk tktable,
+phytools,,which
+pivmet,pandoc pandoc-citeproc,
+pkgdown,pandoc,
+pkgnews,pandoc,
+PKI,openssl,openssl
+PlanetNICFI,gdal,
+Plasmidprofiler,pandoc,
+plumberDeploy,libssh2,
+PMCMRplus,gmp mpfr,
+pmparser,sqlite3,
+png,libpng,libpng
+poisbinom,fftw3,
+PoissonBinomial,fftw3,fftw
+PoissonMultinomial,fftw3,fftw
+PoolTestR,gnumake,
+popbayes,jags,
+pRecipe,gdal netcdf4 proj,
+precommit,git,
+PreKnitPostHTMLRender,pandoc,
+PReMiuM,gnumake,
+prettydoc,pandoc,
+prevalence,jags,
+PRIMME,gnumake,
+ProcData,python,
+PROJ,proj,
+proj4,proj,proj
+prome,gnumake,
+prophet,gnumake,
+protolite,libprotobuf protobuf-compiler,protobuf
+prqlr,rust,
+psBayesborrow,gnumake,
+PTXQC,pandoc,
+publipha,gnumake,
+PVAClone,jags,
+pysd2r,python3,
+qCBA,java,
+QF,gsl,gsl
+qgisprocess,qgis,
+qpdf,libjpeg,libjpeg zlib
+qqconf,fftw3,fftw pkg-config
+qspray,gmp mpfr,
+quantdr,gnumake,
+QuantRegGLasso,gnumake,
+QuickJSR,gnumake,
+r.blip,java,
+R2jags,jags,
+r2pmml,java,
+R2SWF,freetype libpng zlib,freetype libpng pkg-config zlib
+r5r,java,
+ragg,freetype libjpeg libpng libtiff,bzip2 freetype libjpeg libpng libtiff pkg-config zlib
+rapidjsonr,gnumake,
+rapidraker,java,
+RAppArmor,apparmor,libapparmor
+rapport,pandoc,which
+rapportools,,which
+RAQSAPI,pandoc,
+rasciidoc,python,
+rater,gnumake,
+RationalMatrix,gmp,
+rbedrock,cmake gnumake zlib,
+RBesT,gnumake pandoc,
+rbioacc,gnumake,
+rblt,hdf5,
+rbmi,gnumake,
+rCBA,java,
+rcbayes,gnumake,
+rcdd,gmp,gmp
+rcdk,java,
+rchallenge,pandoc,
+RcmdrPlugin.RMTCJags,jags,
+RcppAlgos,gmp,gmp
+RcppBigIntAlgos,gmp,gmp
+RcppCNPy,,zlib
+RcppCWB,glib gnumake,glib pcre pkg-config
+RcppGSL,gsl,gsl
+RcppMeCab,gnumake,mecab pkg-config
+RcppParallel,gnumake,
+RcppRedis,hiredis,
+RcppZiggurat,,gsl
+RCurl,gnumake libcurl,curl
+Rcurvep,java,
+RCzechia,gdal geos proj,
+rdataretriever,python,
+rDEA,glpk,
+RDieHarder,gsl,gsl
+readbitmap,libjpeg libpng,
+readNSx,hdf5,
+redist,python,
+redland,redland,
+redux,hiredis,hiredis pkg-config
+registr,gnumake,
+rego,gnumake,
+remiod,jags,
+remotes,git,
+REPLesentR,pandoc,
+reportfactory,pandoc,
+represtools,gnumake,
+reprex,pandoc,which
+reproj,proj,
+reservoirnet,python,
+reservr,gnumake,
+restoptr,java,
+reticulate,python,
+rextendr,rust,
+rflsgen,java,
+Rgb,tk,
+rgeedim,python,
+RGF,python,
+rgl,freetype glu libpng opengl zlib,freetype libGL libGLU libpng xorg.libX11
+Rglpk,glpk,glpk
+rGroovy,java,
+RH2,java,
+ridge,gsl,gsl
+rjags,jags,jags
+rJava,gnumake java,bzip2 icu jdk libzip pcre xz zlib
+RJDemetra,java,
+rjdmarkdown,java,
+rjdqa,java,
+RJSDMX,java,
+rkafkajars,java,
+RKEA,java,
+RKEAjars,java,
+RKEEL,java,
+RKHSMetaMod,,gsl
+Rlgt,gnumake,
+Rlibeemd,gsl,gsl
+rlibkriging,cmake gnumake hdf5,
+RMariaDB,libmysqlclient,libmysqlclient
+RMark,,which
+rmarkdown,pandoc,
+rmatio,zlib,zlib
+rmBayes,gnumake,
+rmcfs,java,
+RmdConcord,pandoc,
+rmdfiltr,pandoc,
+RmecabKo,,mecab
+rMIDAS,python,
+rminizinc,pandoc,
+Rmixmod,gnumake,
+RMOA,java,
+RMOAjars,java,
+Rmpfr,gmp mpfr,gmp mpfr
+Rmpi,,mpi
+rmsb,gnumake,
+rmumps,gnumake,
+RMySQL,libmysqlclient,libmysqlclient openssl zlib
+RNCBIEUtilsLibs,java,
+rnetcarto,gsl,gsl
+RNetCDF,netcdf4 udunits2,netcdf udunits
+RNetLogo,java,
+RoBMA,jags,jags
+RoBSA,jags,
+RoBTT,gnumake,
+RODBC,odbc,libiodbc
+rofanova,gnumake,
+roll,gnumake,
+rolog,gnumake,
+ropenblas,gnumake,
+ROpenCVLite,cmake,
+Rpadrino,libcurl openssl,
+rpanel,,bwidget
+rPBK,gnumake,
+rpf,gnumake,
+Rpoppler,glib poppler,pkg-config poppler
+rpostgis,postgresql,
+RPostgres,postgresql,
+RPostgreSQL,,postgresql
+rPref,gnumake,
+RProtoBuf,libprotobuf protobuf-compiler,pkg-config protobuf
+RPushbullet,chrome,which
+RPyGeo,python,
+RQuantLib,boost QuantLib,
+rriskDistributions,tcltk tk tktable,
+RSAGA,saga,
+Rsagacmd,saga,
+RSclient,,openssl
+Rserve,gnumake,openssl
+rsgeo,rust,
+rshift,rust,
+RSiena,gnumake,
+rsparkling,java,
+Rssa,fftw3,fftw
+rstan,gnumake pandoc,
+rstanarm,gnumake pandoc pandoc-citeproc,
+rstanbdp,gnumake,
+rstanemax,gnumake,
+rstantools,pandoc,
+rsubgroup,java,
+rsvg,librsvg2,librsvg pkg-config
+rswipl,cmake gnumake libarchive pandoc,
+Rsymphony,coinor-symphony,doxygen graphviz pkg-config subversion
+rticles,gnumake,
+rtika,java,
+rtk,,zlib
+rtkore,gnumake,
+rtmpt,gsl,gsl
+rTorch,pandoc pandoc-citeproc python,
+rTRNG,gnumake,
+rts2,gnumake,
+rubias,gnumake,
+runjags,jags,jags
+rvg,libpng,libpng
+rviewgraph,java,
+RWeka,java,
+RWekajars,java,
+rzmq,zeromq,pkg-config zeromq
+s2,openssl,openssl
+saeHB,jags,
+saeHB.panel,jags,
+saeHB.panel.beta,jags,
+saeHB.unit,jags,
+salso,rust,
+saotd,gsl mpfr,
+SAR,gnumake,
+sasfunclust,gnumake,
+sass,gnumake,
+scaffolder,python,
+Scalelink,gnumake,
+scistreer,gnumake,
+scModels,gmp mpfr,mpfr
+scs,gnumake,
+sdcTable,glpk,glpk gmp
+sdmTMB,gnumake,
+SDMtune,java,
+secr,gnumake,
+seewave,libsndfile,fftw libsndfile
+sendigR,python,
+sentometrics,gnumake,
+seqinr,zlib,zlib
+seqminer,gnumake zlib,bzip2 zlib
+seqtrie,gnumake,
+sf,gdal geos proj sqlite3,curl gdal geos libtiff pkg-config proj sqlite
+SGP,latex,
+sharx,jags,
+shinyInvoice,pandoc,
+shinyloadtest,pandoc,
+showtext,freetype libpng zlib,freetype icu libpng pkg-config zlib
+SIBER,jags,
+Signac,,zlib
+SimInf,gsl,gsl
+SimJoint,gnumake,
+simplace,java,
+simplermarkdown,pandoc,
+simplexreg,gsl,gsl
+skm,gnumake,
+slasso,gnumake,
+slendr,python,
+slowraker,java,
+smam,gnumake gsl,gsl
+smcryptoR,rust,
+smile,gdal geos proj,
+snSMART,jags,
+sodium,libsodium,
+soilhypfit,gmp mpfr,
+spaMM,gsl,gsl
+sparkwarc,,zlib
+SparseChol,gnumake,
+SPARSEMODr,gsl,gsl
+spate,fftw3,fftw pkg-config
+SpatialDDLS,python,
+SpatMCA,gnumake,
+SpatPCA,gnumake,
+spatsoc,gdal geos proj sqlite3,
+spcosa,java,
+specklestar,fftw3,
+sphereTessellation,gmp mpfr,
+sportyR,pandoc pandoc-citeproc,
+spsurv,gnumake,
+SqlRender,java,
+ssanv,,proj
+ssh,libssh2,libssh
+ssMousetrack,gnumake,
+StanHeaders,gnumake pandoc,
+StanMoMo,gnumake,
+staplr,java,
+Statsomat,latex pandoc python,
+StMoSim,gnumake,
+stplanr,gnumake,
+stpphawkes,gsl,
+strawr,libcurl openssl,curl
+streamMOA,java,
+stressor,python,
+string2path,rust,
+stringfish,gnumake,
+stringi,libicu,icu pkg-config
+subspace,java,
+sudachir,python,
+SuperGauss,fftw3,fftw pkg-config
+surveil,gnumake,
+surveyvoi,automake fftw3 gmp jags mpfr,
+survHE,gnumake,
+survSNP,gsl,gsl
+survstan,gnumake,
+svglite,libpng,libpng
+svKomodo,,which
+switchboard,tcltk tk,
+switchr,git,
+SymbolicDeterminants,gmp,
+symengine,cmake gmp gnumake mpfr,flint mpfr symengine
+symSEM,python,
+SymTS,,gsl
+sysfonts,freetype libpng zlib,freetype libpng pkg-config zlib
+systemfonts,fontconfig freetype,fontconfig freetype pkg-config
+tables,pandoc,
+TAQMNGR,zlib,zlib
+TCIU,gnumake,
+tcltk2,tcltk tk tktable,tcl tk
+TDA,gmp gnumake,
+TDCM,pandoc,
+terra,gdal geos proj sqlite3,gdal geos pkg-config proj sqlite
+tesseract,leptonica tesseract,leptonica pkg-config tesseract
+texor,pandoc,
+texreg,latex pandoc,
+text,python,
+textmineR,gnumake,
+textrecipes,gnumake,
+textshaping,freetype fribidi harfbuzz,freetype fribidi harfbuzz libpng pkg-config
+tfevents,libprotobuf protobuf-compiler,
+tglkmeans,gnumake,
+Thermimage,exiftool imagemagick perl,
+thurstonianIRT,gnumake,
+tidycwl,pandoc,
+tidync,netcdf4 udunits2,
+tidysq,gnumake,
+tiff,libjpeg libtiff,libtiff
+tikzDevice,,texliveMedium which
+tiledb,cmake git,
+tiler,gdal python,
+tipsae,gnumake,
+tkImgR,tcltk tk,
+tkrplot,,tk xorg.libX11
+tkRplotR,tcltk tk,
+tmbstan,gnumake,
+tok,rust,
+topicmodels,gsl,gsl
+trackdem,exiftool python,
+TreeBUGS,jags,
+trialr,gnumake,
+TriDimRegression,gnumake,
+truncnormbayes,gnumake,
+tsapp,fftw3,
+tsmp,gnumake,
+tsnet,gnumake,
+uavRmp,gnumake,
+ubiquity,perl,
+ubms,gnumake,
+udunits2,,expat udunits
+UHM,jags,
+unigd,cairo fontconfig freetype libpng,
+units,udunits2,udunits
+unix,apparmor,
+unmarked,gnumake,
+unmconf,jags,
+untb,pari-gp,
+V8,v8,v8
+vapour,gdal proj,
+varitas,perl,
+VBLPCM,gsl,gsl
+vcfR,,zlib
+vdiffr,libpng,
+venneuler,java,
+VicmapR,gdal geos proj,
+visit,gnumake,
+vitae,pandoc,
+vol2birdR,gnumake gsl hdf5 proj,
+walker,gnumake,
+warbleR,fftw3 gdal gnumake libsndfile,
+webp,libwebp,libwebp pkg-config
+webshot,imagemagick,
+websocket,gnumake openssl,
+worcs,pandoc,
+wordnet,java,
+workflowr,pandoc,
+writexl,zlib,zlib
+WriteXLS,perl,
+x.ent,perl,
+XBRL,libxml2,libxml2 zlib
+xgboost,gnumake,
+XLConnect,java,jdk
+xlsx,java,
+XML,libxml2,libtool libxml2 libxslt pkg-config xmlsec
+xml2,libxml2,libxml2
+xmpdf,exiftool,
+xslt,libxslt,libxml2 libxslt pkg-config
+yamlme,pandoc,
+ymd,rust,
+YPBP,gnumake,
+YPPE,gnumake,
+zoid,gnumake,
+zoomerjoin,rust,
+abseqR,pandoc,
+affyio,,zlib
+affyPLM,,zlib
+alabaster.base,gnumake,
+AMOUNTAIN,gsl,gsl
+APL,python,
+bamsignals,gnumake,zlib
+BASiCStan,gnumake,
+BatchQC,pandoc,
+beachmat.hdf5,gnumake,
+beer,jags,
+BiocCheck,,which
+BiocSklearn,python,
+Biostrings,,zlib
+BUSpaRse,gnumake,
+canceR,bwidget tktable,
+Cardinal,,which
+ccfindR,,gsl
+CellBarcode,,zlib
+CeTF,libxml2 openssl,
+ChemmineOB,eigen openbabel,openbabel pkg-config
+ChemmineR,gnumake,
+chihaya,gnumake,
+CHRONOS,java pandoc,
+CNEr,,zlib
+COHCAP,perl,
+crossmeta,libcurl libxml2 openssl,
+csaw,gnumake,curl zlib
+cytolib,gnumake,
+CytoML,gnumake,libxml2
+dada2,gnumake,
+debCAM,java,
+decontX,gnumake,
+deepSNV,gnumake,
+DiffBind,gnumake,zlib
+diffHic,gnumake,
+diffuStats,gnumake,
+DirichletMultinomial,gsl,gsl
+DiscoRhythm,pandoc,
+DropletUtils,gnumake,zlib
+ensemblVEP,perl,
+epialleleR,gnumake,
+epigraHMM,gnumake,
+fastreeR,java,
+FLAMES,gnumake,zlib
+flowcatchR,imagemagick,
+flowClust,gnumake,
+flowCore,gnumake,
+flowDensity,gnumake,
+flowPeaks,gsl,gsl
+flowWorkspace,gnumake,zlib
+GBScleanR,gnumake,
+GGPA,gnumake,
+GLAD,gsl,gsl
+gmapR,,zlib
+GPA,gnumake,
+gpuMagic,opencl,
+h5vc,gnumake,zlib
+HDF5Array,gnumake,zlib
+HIBAG,gnumake,
+HiCDCPlus,,zlib
+HilbertVisGUI,gnumake,gtkmm2 pkg-config which
+HiLDA,jags,
+iBMQ,gsl,gsl
+idr2d,python,
+IgGeneUsage,gnumake,
+immunoClust,,gsl
+infercnv,jags,
+KEGGlincs,java,
+lpsymphony,gnumake,gettext gfortran pkg-config
+maftools,gnumake,
+metabinR,java,
+methylKit,gnumake,zlib
+mitoClone2,gnumake,
+MMUPHin,glpk,
+ModCon,perl,
+MOFA2,python,
+mosaics,perl,
+mosbi,gnumake,
+msa,gnumake,
+msImpute,python,
+mzR,gnumake,netcdf zlib
+NanoMethViz,,zlib
+ncdfFlow,,zlib
+netboost,gnumake perl,
+NetPathMiner,libxml2,
+oligo,,zlib
+openPrimeR,pandoc,
+paxtoolsr,java,
+PICS,,gsl
+PING,,gsl
+podkat,gnumake,zlib
+ppcseq,gnumake,
+pqsfinder,gnumake,
+qckitfastq,gnumake,
+QuasR,gnumake,zlib
+raer,gnumake,
+Rarr,gnumake,
+rawrr,,mono
+RBioFormats,java,
+Rbowtie,gnumake,zlib
+Rbowtie2,gnumake,zlib
+Rbwa,gnumake,
+RCAS,pandoc,
+RedeR,java,
+RedisParam,hiredis,
+ReQON,java,
+Rfastp,gnumake,
+rhdf5,gnumake,zlib
+rhdf5filters,gnumake,bzip2 zlib
+Rhdf5lib,gnumake,zlib
+Rhisat2,gnumake,
+Rhtslib,libcurl,autoconf automake bzip2 curl xz zlib
+RJMCMCNucleosomes,,gsl
+RMassBank,openbabel,
+rmelting,java,
+Rmmquant,,zlib
+RProtoBufLib,gnumake,
+rRDP,java,
+Rsamtools,gnumake,curl zlib
+Rsubread,,zlib
+rtracklayer,,zlib
+runibic,gnumake,
+SAIGEgds,gnumake,
+sarks,java,
+scBubbletree,python,
+sccomp,gnumake,
+scGPS,gnumake,
+scMET,gnumake,
+scPipe,gnumake,zlib
+screenCounter,gnumake,
+SELEX,java,
+seqArchR,python,
+seqbias,gnumake,zlib
+seqTools,,zlib
+SharedObject,gnumake,
+ShortRead,,zlib
+SICtools,,ncurses zlib
+simona,java perl,
+snpStats,,zlib
+sparsenetgls,gnumake,
+SpliceWiz,gnumake,
+trackViewer,,zlib
+transcriptogramer,java,
+TransView,gnumake,zlib
+updateObject,git,
+VariantAnnotation,gnumake,curl zlib
+webbioc,perl,
+XVector,,zlib
+dpeak,gnumake,
+LowMACA,perl,
+qrqc,gnumake,zlib
+Travel,pkg-config,
+abn,,gsl
+ArrayExpressHTS,,curl which zlib
+BayesSAE,,gsl
+BitSeq,,zlib
+bnpmr,,gsl
+cairoDevice,,gtk2 pkg-config
+chebpol,,fftw pkg-config
+data_table,,pkg-config zlib
+diseq,,gsl
+graphscan,,gsl
+hadron,,gsl
+JMcmprsk,,gsl
+KFKSDS,,gsl
+largeList,,zlib
+libstableR,,gsl
+mixlink,,gsl
+mwaved,,fftw pkg-config
+nat_templatebrains,,which
+pbdPROF,,mpi
+PopGenome,,zlib
+rgdal,,gdal proj
+rGEDI,,gsl hdf5 libaec libgeotiff zlib
+rgeos,,geos
+RGtk2,,gtk2 pkg-config
+Rhpc,,bzip2 icu mpi pcre xz zlib
+rJPSGCS,,zlib
+rrd,,pkg-config rrdtool
+RVowpalWabbit,,boost zlib
+SAVE,,bzip2 icu pcre xz zlib
+spp,,zlib
+stsm,,gsl
+themetagenomics,,zlib
