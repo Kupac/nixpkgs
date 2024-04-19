@@ -1288,6 +1288,13 @@ let
       TCLLIBPATH = "${pkgs.bwidget}/lib/bwidget${pkgs.bwidget.version}";
     });
 
+
+    Rsymphony = old.Rsymphony.overrideAttrs (attrs: {
+      preConfigure = ''
+        export LD_RUN_PATH="${lib.getLib pkgs.symphony}/lib/"
+      '';
+    });
+
     RPostgres = old.RPostgres.overrideAttrs (attrs: {
       preConfigure = ''
         export INCLUDE_DIR=${pkgs.postgresql}/include
