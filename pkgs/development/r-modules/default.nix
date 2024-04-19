@@ -596,7 +596,7 @@ let
     mashr = [ pkgs.gsl ];
     hadron = [ pkgs.gsl ];
     AMOUNTAIN = [ pkgs.gsl ];
-    Rsymphony = with pkgs; [ doxygen graphviz subversion ];
+    Rsymphony = with pkgs; [ doxygen graphviz subversion symphony ];
     tcltk2 = with pkgs; [ tcl tk ];
     rswipl = with pkgs; [ ncurses.dev libxcrypt zlib.dev ];
     tikzDevice = with pkgs; [ which texliveMedium ];
@@ -1287,13 +1287,6 @@ let
         export TCLLIBPATH="${pkgs.bwidget}/lib/bwidget${pkgs.bwidget.version}"
       '';
       TCLLIBPATH = "${pkgs.bwidget}/lib/bwidget${pkgs.bwidget.version}";
-    });
-
-
-    Rsymphony = old.Rsymphony.overrideAttrs (attrs: {
-      preConfigure = ''
-        export LD_RUN_PATH="${lib.getLib pkgs.symphony}/lib/"
-      '';
     });
 
     RPostgres = old.RPostgres.overrideAttrs (attrs: {
