@@ -960,6 +960,7 @@ let
     "repmis"
     "R_cache"
     "R_filesets"
+    "RBioFormats"
     "RKorAPClient"
     "R_rsp"
     "salso"
@@ -1008,7 +1009,6 @@ let
     "Rmpi"     # tries to run MPI processes
     "ReactomeContentService4R" # tries to connect to Reactome
     "PhIPData" # tries to download something from a DB
-    "RBioFormats" # tries to download jar during load test
     "pbdMPI"   # tries to run MPI processes
     "CTdata" # tries to connect to ExperimentHub
     "rfaRm" # tries to connect to Ebi
@@ -1256,6 +1256,16 @@ let
         substituteInPlace "R/rawrr.R" --replace-warn \
           "Sys.which(\"mono\")" "\"${lib.getBin pkgs.mono}/bin/mono\""
       '';
+    });
+
+    RBioFormats =
+      old.RBioFormats.overrideAttrs (attrs:{
+      postPatch = ''
+        substituteInPlace "R/zzz.R" --replace-warn \
+          ".get_bioformats(bf_ver, bf_jar)" \
+          "file.copy(\"${lib.getBin pkgs.bftools}/share/java/bioformats_package.jar\", bf_jar)"
+      '';
+
     });
 
     rpf = old.rpf.overrideAttrs (attrs: {
