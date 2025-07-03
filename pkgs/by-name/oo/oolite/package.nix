@@ -28,7 +28,10 @@ clangStdenv.mkDerivation (attrs: {
 
   hardeningDisable = [ "format" ];
 
-  env.NIX_CFLAGS_COMPILE = " -Wno-error=incompatible-pointer-types -Wno-error=implicit-function-declaration";
+  # DEBUG_GRAPHVIZ is disabled, because it results in a linker error in
+  # OOCache's graphviz-related part. Perhaps it could be solved some other
+  # way in the future.
+  env.NIX_CFLAGS_COMPILE = " -Wno-error=incompatible-pointer-types -Wno-error=implicit-function-declaration -DDEBUG_GRAPHVIZ=0";
 
   nativeBuildInputs = [
     gnustep-make
