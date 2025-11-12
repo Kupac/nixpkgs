@@ -1682,6 +1682,7 @@ let
     "R_filesets"
     "RKorAPClient"
     "R_rsp"
+    "RBioFormats"
     "salso"
     "scholar"
     "SpatialDecon"
@@ -1732,7 +1733,6 @@ let
     "Rmpi" # tries to run MPI processes
     "ReactomeContentService4R" # tries to connect to Reactome
     "PhIPData" # tries to download something from a DB
-    "RBioFormats" # tries to download jar during load test
     "pbdMPI" # tries to run MPI processes
     "CTdata" # tries to connect to ExperimentHub
     "rfaRm" # tries to connect to Ebi
@@ -1988,6 +1988,19 @@ let
         substituteInPlace "src/xCNV.c" \
         --replace-fail "Calloc" "R_Calloc" \
         --replace-fail "Free" "R_Free"
+      '';
+    });
+
+    RBioFormats = old.RBioFormats.overrideAttrs (attrs: {
+      postPatch = ''
+        substituteInPlace "R/zzz.R" \
+          --replace-fail '!file.exists(bf_jar)' 'FALSE' \
+          --replace-fail \
+          '.jpackage(pkg, lib.loc = lib, morePaths = c(jars, bf_jar))' \
+          'cat("jars: ", jars, "\n");.jpackage(pkg, lib.loc = lib, morePaths = union(jars, "${lib.getBin pkgs.bftools}/share/java/bioformats_package.jar"))' \
+          --replace-fail \
+          '.init_formattools()' \
+          'cat(".jclassPath():\n", .jclassPath(), "\n");.init_formattools()'
       '';
     });
 
