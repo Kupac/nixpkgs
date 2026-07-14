@@ -27,7 +27,6 @@ let
   platformIds = {
     "x86_64-linux" = "linux";
     "aarch64-linux" = "linux-arm64";
-    "x86_64-darwin" = "darwin";
     "aarch64-darwin" = "darwin-arm64";
   };
 
@@ -95,8 +94,8 @@ stdenv.mkDerivation (finalAttrs: {
       sourceRoot
       ;
     inherit pnpm;
-    fetcherVersion = 3;
-    hash = "sha256-4yqTBR8gv5q6uyuDq7Bgs1275YBQ87aaTYkNFtamVek=";
+    fetcherVersion = 4;
+    hash = "sha256-1QIGx0Zm6v4FIR1EYgXQzmBMZBa9Bi24vouT1K6v9EQ=";
   };
 
   sourceRoot = "${finalAttrs.src.name}/app";

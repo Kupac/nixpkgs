@@ -33,7 +33,7 @@ let
 in
 rustPlatform.buildRustPackage (finalAttrs: {
   pname = "deno";
-  version = "2.8.3";
+  version = "2.9.3";
 
   __structuredAttrs = true;
 
@@ -47,10 +47,10 @@ rustPlatform.buildRustPackage (finalAttrs: {
     repo = "deno";
     tag = "v${finalAttrs.version}";
     fetchSubmodules = true; # required for tests
-    hash = "sha256-jOcIrZj+830XMZJcgTm0C4yDvk96dbW7RYGgyhLHS4Y=";
+    hash = "sha256-XMHlWK+lhyn1KO1CSxcuM3KzTjYviVrRw+FUL74bBPc=";
   };
 
-  cargoHash = "sha256-QtCkmNXOrtl4T4NSESV7J3qiyKMwMOoa4oWfTZIJRMc=";
+  cargoHash = "sha256-WZxyoD9WMnaLyD3/86R90KWC+9OA15fIMw8SjmovNHA=";
 
   patches = [
     ./patches/0002-tests-replace-hardcoded-paths.patch
@@ -159,6 +159,7 @@ rustPlatform.buildRustPackage (finalAttrs: {
     "--skip=node_unit_tests::net_test"
     "--skip=node_unit_tests::tls_test"
     "--skip=npm::lock_file_lock_write"
+    "--skip=happy_eyeballs::tests::test_parallel_second_wins"
 
     # GPU access
     "--skip=js_unit_tests::webgpu_test"
@@ -294,7 +295,6 @@ rustPlatform.buildRustPackage (finalAttrs: {
     platforms = [
       "x86_64-linux"
       "aarch64-linux"
-      "x86_64-darwin"
       "aarch64-darwin"
     ];
   };

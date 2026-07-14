@@ -429,11 +429,11 @@ stdenv.mkDerivation (
           # see https://www.npmjs.com/package/@vscode/ripgrep-universal?activeTab=code
           ripgrepSystem =
             {
-              x86_64-darwin = "darwin-x64";
               aarch64-darwin = "darwin-arm64";
               armv7l-linux = "linux-arm";
               aarch64-linux = "linux-arm64";
               i686-linux = "linux-ia32";
+              loongarch64-linux = "linux-loong64";
               powerpc64-linux = "linux-ppc64";
               riscv64-linux = "linux-riscv64";
               s390x-linux = "linux-s390x";
@@ -475,6 +475,7 @@ stdenv.mkDerivation (
         patchelf \
           --add-needed ${lib.getLib openssl}/lib/libssl.so.3 \
           $out/lib/vscode/resources/app/node_modules/@vscode/vsce-sign/bin/vsce-sign
+        chmod +x $out/lib/vscode/resources/app/node_modules/@vscode/vsce-sign/bin/vsce-sign
       '')
     );
 
