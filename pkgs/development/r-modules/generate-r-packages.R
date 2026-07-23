@@ -113,6 +113,10 @@ nixPrefetch <- function(name, version) {
     }
 }
 
+is_empty <- function(x) {
+    is.null(x) || length(x) == 0L || all(is.na(x) | x == "")
+}
+
 formatPackage <- function(
     name,
     version,
@@ -120,7 +124,9 @@ formatPackage <- function(
     depends,
     imports,
     linkingTo,
-    license
+    license,
+    license_is_FOSS,
+    license_restricts_use
 ) {
     options(warn = 5)
     depends <- paste(
@@ -142,15 +148,40 @@ formatPackage <- function(
     depends <- sort(unique(depends))
 
     analyzedLicense <- tools::analyze_license(license)
-    list(
-        name = unbox(name),
-        version = unbox(version),
-        spdx = unbox(analyzedLicense$spdx),
-        sha256 = unbox(sha256),
-        depends = depends
+    spdx <- strsplit(analyzedLicense[["spdx"]], " OR ")[[1]]
+    # Curated value takes precedence
+    is_FOSS <- if (is.na(license_is_FOSS)) {
+        analyzedLicense[["is_FOSS"]]
+    } else {
+        c(yes = TRUE, no = FALSE)[license_is_FOSS]
+    }
+    # Curated value takes precedence
+    restricts_use <- if (is.na(license_restricts_use)) {
+        analyzedLicense[["restricts_use"]]
+    } else {
+        c(yes = TRUE, no = FALSE)[license_restricts_use]
+    }
+
+    c(
+        list(
+            name = unbox(name),
+            version = unbox(version),
+            spdx = spdx
+        ),
+        # Save space in the JSON files, only write these if needed
+        # spdx not identified or !is_FOSS or restricts_use
+        if (is_empty(spdx) || isTRUE(!is_FOSS)) {
+            list(license_is_FOSS = unbox(is_FOSS))
+        },
+        if (is_empty(spdx) || isTRUE(restricts_use)) {
+            list(license_restricts_use = unbox(restricts_use))
+        },
+        list(
+            sha256 = unbox(sha256),
+            depends = depends
+        )
     )
 }
-
 cl <- makeCluster(10)
 clusterExport(
     cl,
@@ -181,7 +212,9 @@ pkgs <- lapply(seq_len(nrow(pkgTable)), function(i) {
             Depends,
             Imports,
             LinkingTo,
-            License
+            License,
+            License_is_FOSS,
+            License_restricts_use
         )
     )
 })
